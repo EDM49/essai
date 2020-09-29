@@ -1,0 +1,186 @@
+body
+{
+	background-color: white;
+	font-family: ;
+	color : ;
+}
+
+#bloc_page
+{
+	width: 1199px;
+	margin: auto;
+}
+
+/*partie header*/
+#header{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;}
+
+#logo{
+	display: flex;
+	flex-direction: row;
+	width:65%; 
+	height:50px;}
+
+#logo img{max-width: 70px;
+	height: 35px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-decoration: none;
+	width: 35%;
+	height: 50px;
+	display: flex;
+	float: right;
+	justify-content: space-between;
+}
+
+/*partie header (filtre)*/
+#filtre{
+	display: flex; 
+	flex-direction: row;
+	width: 75%
+	
+}
+#flitre, .ttt{
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-right: 50px;
+	width: 100px;
+	height: 25px;
+}
+
+#flitre, img{
+	float: left;
+	}
+
+
+/*partie des deux div*/
+#container0{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#container1{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(225 225 225); /*gris*/
+    width: 68%;
+    height: 450px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    border-radius:10px;
+}
+
+.element1{background-color: red;
+	width: 50px;
+	height: 50px;}
+
+.element2{background-color: green;
+	width: 50px;
+	height: 50px;}
+
+.element3{background-color: yellow;
+	width: 50px;
+	height: 50px;}
+
+.element4{background-color: red;
+	width: 50px;
+	height: 50px;}
+
+.element5{background-color: green;
+	width: 50px;
+	height: 50px;}
+
+.element6{background-color: yellow;
+	width: 50px;
+	height: 50px;}
+
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #0AD; /*Bleu*/
+    width: 28%;
+    height: 450px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.element7{background-color: red;
+	width: 	300px;
+	height: 100px;
+	border-radius: 10px}
+
+
+.element8{background-color: green;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px}
+
+.element9{background-color: yellow;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px}
+
+.element7,img{
+	width: 280px; /*a supprimer*/
+	height: 90px
+	border-radius:10px;
+}
+
+
+
+/*partie grid*/
+
+
+
+
+
+
+/*partie footer*/
+
+#Bloc_footer{
+	display: flex;
+	width: 100%;
+	height: 160px;
+	background-color: rgb(225 225 225);
+}
+
+#A_propos{
+	width: 30%;
+	height:100%;
+}
+
+#Nos_hébergements{
+	width: 30%;
+	height:100%;
+
+}
+#Assistance{
+	width: 40%;
+	height:100%;
+}
+
+#Bloc_footer ul{
+	list-style-type: none;
+	float: left;
+	text-align: left;
+	text-decoration: none;}
